@@ -18,6 +18,7 @@ pipeline {
         stage('Test_3') {
             steps {
                 echo 'Test_3'
+                echo "Test Pull request"
             }
         }
     }
